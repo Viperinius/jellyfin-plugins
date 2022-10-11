@@ -1,0 +1,21 @@
+[
+    {
+        "guid": "be72d436-ab23-44b4-8625-9a8f3892d27a",
+        "name": "NFO Chapters",
+        "description": "This plugin extends the NFO parser for your Movies. You can specify your own chapters in the NFO which will get picked up by the plugin during a library scan.\n",
+        "overview": "This plugin enables the use of chapter tags in NFOs",
+        "owner": "Viperinius",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.8.4.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/releases/download/1.0.0.0/Viperinius.Plugin.NfoChapters_1.0.0.0.zip",
+                "checksum": "652283ac1ad28185a99e1a544c9819aa",
+                "timestamp": "2022-10-11T14:23:10Z"
+            }
+        ],
+        "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/raw/master/viperinius-plugin-nfochapters.png"
+    }
+]
