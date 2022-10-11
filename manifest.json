@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.0.0.1",
+                "changelog": "changelog\n",
+                "targetAbi": "10.8.4.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/releases/download/1.0.0.1/Viperinius.Plugin.NfoChapters_1.0.0.1.zip",
+                "checksum": "479a95119c33e56a97539aa2b9343585",
+                "timestamp": "2022-10-11T15:42:45Z"
+            },
+            {
                 "version": "1.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.8.4.0",
