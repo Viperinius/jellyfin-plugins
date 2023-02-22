@@ -37,7 +37,7 @@ jobs:
           dotnet-target: "${{ inputs.dotnet-target }}"
 
       - name: Generate Manifest
-        uses: ./.github/workflows/build_manifest.yaml
+        uses: viperinius/jellyfin-plugins/.github/generate-manifest@master
         with:
           path: ${{ steps.jprm.outputs.artifact }}
           repo-slug: ${{ github.repository }}
