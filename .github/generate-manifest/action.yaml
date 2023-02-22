@@ -60,5 +60,5 @@ runs:
         python3 ./jprm/jprm/__init__.py --verbosity=debug repo init ./manifest.json
         python3 ./jprm/jprm/__init__.py --verbosity=debug repo add ./manifest.json ${{ inputs.path }} -U "${SOURCE_URL}"
         
-        echo "::set-output name=artifact::manifest.json"
+        echo "artifact=manifest.json" >> $GITHUB_OUTPUT
         echo "::endgroup::"
