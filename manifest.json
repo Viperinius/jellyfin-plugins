@@ -25,5 +25,24 @@
             }
         ],
         "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/raw/master/viperinius-plugin-nfochapters.png"
+    },
+    {
+        "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
+        "name": "Spotify Import",
+        "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.\n",
+        "overview": "This plugin imports playlists from Spotify.",
+        "owner": "Viperinius",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "# Changelog\n\n## [1.0.0.0] - 2023-02-26\n\n- Initial release\n\n### Added\n\n- Spotify authentication via authorization code / PKCE\n- Generation of missing tracks lists\n- Import of Spotify playlists",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.0.0.0/spotify-import_1.0.0.0.zip",
+                "checksum": "31e469a36f7e4b10d0f2e146fde81136",
+                "timestamp": "2023-02-26T19:54:34Z"
+            }
+        ],
+        "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/raw/master/viperinius-plugin-spotifyimport.png"
     }
 ]
