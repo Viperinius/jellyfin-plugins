@@ -43,6 +43,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.1.0.0",
+                "changelog": "# Changelog\n\n## [1.1.0.0] - 2023-04-15\n\n### Added\n\n- New button to delete all generated missing tracks files\n- New option to specify the date format used for missing tracks file names\n\n### Fixed\n\n- A missing tracks file is created even though the playlist is not missing any tracks\n- Fix exception if a song has no artists, album name or album artists set\n\n## [1.0.0.0] - 2023-02-26\n\n- Initial release\n\n### Added\n\n- Spotify authentication via authorization code / PKCE\n- Generation of missing tracks lists\n- Import of Spotify playlists",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.1.0.0/spotify-import_1.1.0.0.zip",
+                "checksum": "cf64c4c2ec8c295d385cac119ad76fa1",
+                "timestamp": "2023-04-15T15:19:56Z"
+            },
+            {
                 "version": "1.0.0.0",
                 "changelog": "# Changelog\n\n## [1.0.0.0] - 2023-02-26\n\n- Initial release\n\n### Added\n\n- Spotify authentication via authorization code / PKCE\n- Generation of missing tracks lists\n- Import of Spotify playlists",
                 "targetAbi": "10.8.0.0",
