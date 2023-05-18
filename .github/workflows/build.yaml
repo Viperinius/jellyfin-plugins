@@ -16,7 +16,11 @@ on:
         default: "net6.0"
         description: "The .NET target to set for JPRM"
         type: string
-
+      dotnet-config:
+        required: false
+        default: "Release"
+        description: "The .NET build configuration for JPRM"
+        type: string
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,6 +39,7 @@ jobs:
         id: jprm
         with:
           dotnet-target: "${{ inputs.dotnet-target }}"
+          dotnet-config: "${{ inputs.dotnet-config }}"
 
       - name: Generate Manifest
         uses: viperinius/jellyfin-plugins/.github/generate-manifest@master
