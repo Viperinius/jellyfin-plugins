@@ -43,6 +43,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.7.0.3",
+                "changelog": "# Changelog\n\n## [1.7.0.3] - 2024-03-17\n\n(Internal testing release)",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.7.0.3-dev/spotify-import_1.7.0.3.zip",
+                "checksum": "55387af31db8a16f1f8428aac9cdbf70",
+                "timestamp": "2024-03-17T20:41:59Z"
+            },
+            {
                 "version": "1.7.0.2",
                 "changelog": "# Changelog\n\n## [1.7.0.2] - 2024-03-17\n\n(Internal testing release)",
                 "targetAbi": "10.8.0.0",
