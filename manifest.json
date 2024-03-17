@@ -43,6 +43,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.7.0.1",
+                "changelog": "# Changelog\n\n## [1.7.0.1] - 2024-03-17\n\n(Internal testing release)",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.7.0.1-dev/spotify-import_1.7.0.1.zip",
+                "checksum": "ae05c51a7225a98b472473c1191058fa",
+                "timestamp": "2024-03-17T15:12:55Z"
+            },
+            {
                 "version": "1.7.0.0",
                 "changelog": "# Changelog\n\n## [1.7.0.0] - 2024-03-10\n\n### Changed\n\n- If a track / album / artist contains text in parentheses, this content will be used as another match candidate (e.g. to match tracks that have an english translation of a foreign name)\n\n### Fixed\n\n- Fix broken track matching if multiple artists of a track exist in Jellyfin, but the track is not located under the first existing artist\n- Fix not matching tracks if their album is not a direct child of their artist and (for whatever reason) only detectable via the album artist",
                 "targetAbi": "10.8.0.0",
