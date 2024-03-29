@@ -43,6 +43,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.7.2.0",
+                "changelog": "# Changelog\n\n## [1.7.2.0] - 2024-03-29\n\n### Fixed\n\n- Accept matches where Spotify uses a different track syntax than metadata providers (e.g. \"Track Name - Super Remix\" on Spotify and \"Track Name (Super Remix)\" on MusicBrainz) if at least match level `Ignore Case + Punctuation` is used",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.7.2.0/spotify-import_1.7.2.0.zip",
+                "checksum": "54dd387b651ea7cdfe3d248af6680d6a",
+                "timestamp": "2024-03-29T18:47:05Z"
+            },
+            {
                 "version": "1.7.1.0",
                 "changelog": "# Changelog\n\n## [1.7.1.0] - 2024-03-18\n\n### Changed\n\n- Reintroduce the old track matching method as a configurable legacy alternative (not recommended to be used)\n- Extend logging information / debug possibilities",
                 "targetAbi": "10.8.0.0",
