@@ -43,6 +43,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.8.0.0",
+                "changelog": "# Changelog\n\n## [1.8.0.0] - 2024-05-17\n\n### Added\n\n- Support for Jellyfin 10.9\n- New configurable flag for each playlist whether or not to recreate it from scratch each time the task runs\n- New matching type \"fuzzy checking\" for track and album names\n\n### Changed\n\n- \"Ignore Parentheses\" now treats [] the same as ()\n- Some rework of the track matching process (again); the plugin now tries to find all potential matches first and then decides a \"best fit\" track name",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.8.0.0/spotify-import_1.8.0.0.zip",
+                "checksum": "b1d6b7cac62879b2d3b4cb493936e31d",
+                "timestamp": "2024-05-17T14:52:25Z"
+            },
+            {
                 "version": "1.7.2.0",
                 "changelog": "# Changelog\n\n## [1.7.2.0] - 2024-03-29\n\n### Fixed\n\n- Accept matches where Spotify uses a different track syntax than metadata providers (e.g. \"Track Name - Super Remix\" on Spotify and \"Track Name (Super Remix)\" on MusicBrainz) if at least match level `Ignore Case + Punctuation` is used",
                 "targetAbi": "10.8.0.0",
