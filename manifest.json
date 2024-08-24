@@ -51,6 +51,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.8.2.0",
+                "changelog": "# Changelog\n\n## [1.8.2.0] - 2024-08-24\n\n(Internal testing release)",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.8.2.0/spotify-import_1.8.2.0.zip",
+                "checksum": "6a824ae2b6bfbbf21a8d78ea3e7b9db0",
+                "timestamp": "2024-08-24T15:43:13Z"
+            },
+            {
                 "version": "1.8.1.1",
                 "changelog": "# Changelog\n\n## [1.8.1.1] - 2024-06-21\n\n### Fixed\n\n- Include missing Fastenshtein dependency in build artifacts",
                 "targetAbi": "10.9.0.0",
