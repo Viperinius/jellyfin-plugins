@@ -51,6 +51,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.9.0.0",
+                "changelog": "# Changelog\n\n## [1.9.0.0] - 2024-08-25\n\n### Added\n\n- New setting to enable imported \"progress\" to be displayed in the playlist description -> #30\n- New matching type to extract an album name from the track name (like 'Track [From \"An Album\"]') and use that for comparison\n\n### Changed\n\n- Updated Jellyfin dependencies to match version 10.9.9\n- Switch request handling on plugin config page to use jellyfin custom fetch mechanism",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.9.0.0/spotify-import_1.9.0.0.zip",
+                "checksum": "7e1f5fc76af350529238e2a54829fb55",
+                "timestamp": "2024-08-25T17:17:15Z"
+            },
+            {
                 "version": "1.8.2.0",
                 "changelog": "# Changelog\n\n## [1.8.2.0] - 2024-08-24\n\n(Internal testing release)",
                 "targetAbi": "10.9.0.0",
