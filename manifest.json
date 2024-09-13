@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.2.0.0",
+                "changelog": "# Changelog\n\n## [1.2.0.0] - 2024-09-13\n\n### Added\n\n- Support for ChaptersDB style xml chapters",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/releases/download/1.2.0.0/nfo-chapters_1.2.0.0.zip",
+                "checksum": "1576fffb1246e7ae80c0b78f9bdec0ae",
+                "timestamp": "2024-09-13T12:34:54Z"
+            },
+            {
                 "version": "1.1.0.0",
                 "changelog": "# Changelog\n\n## [1.1.0.0] - 2024-05-17\n\n### Added\n\n- Support for Jellyfin 10.9",
                 "targetAbi": "10.9.0.0",
