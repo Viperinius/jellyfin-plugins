@@ -59,6 +59,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.10.0.0",
+                "changelog": "# Changelog\n\n## [1.10.0.0] - 2024-09-14\n\n### Added\n\n- New option to set playlists as private or public to all users\n\n### Fixed\n\n- Exception if Spotify returns duplicate playlists for a user",
+                "targetAbi": "10.9.9.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.10.0.0/spotify-import_1.10.0.0.zip",
+                "checksum": "53ab39ad1f6dc54238ed8485931185e0",
+                "timestamp": "2024-09-14T15:09:43Z"
+            },
+            {
                 "version": "1.9.0.0",
                 "changelog": "# Changelog\n\n## [1.9.0.0] - 2024-08-25\n\n### Added\n\n- New setting to enable imported \"progress\" to be displayed in the playlist description -> #30\n- New matching type to extract an album name from the track name (like 'Track [From \"An Album\"]') and use that for comparison\n\n### Changed\n\n- Updated Jellyfin dependencies to match version 10.9.9\n- Switch request handling on plugin config page to use jellyfin custom fetch mechanism",
                 "targetAbi": "10.9.0.0",
