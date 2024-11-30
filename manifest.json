@@ -59,6 +59,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.11.0.0",
+                "changelog": "# Changelog\n\n## [1.11.0.0] - 2024-11-30\n\n### Added\n\n- Support for manually mapping tracks between Spotify and Jellyfin (#44)\n\n### Fixed\n\n- Keep iterating through artists even after a first match was found (in case multiple artists with the same name exist)\n- Fix exception getting user playlists due to changes in the Spotify API (#46)",
+                "targetAbi": "10.9.9.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.11.0.0/spotify-import_1.11.0.0.zip",
+                "checksum": "28d6479d31b5ee1a1b7d2ad0135d989f",
+                "timestamp": "2024-11-30T18:05:32Z"
+            },
+            {
                 "version": "1.10.0.0",
                 "changelog": "# Changelog\n\n## [1.10.0.0] - 2024-09-14\n\n### Added\n\n- New option to set playlists as private or public to all users\n\n### Fixed\n\n- Exception if Spotify returns duplicate playlists for a user",
                 "targetAbi": "10.9.9.0",
