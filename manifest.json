@@ -59,6 +59,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.12.2.0",
+                "changelog": "# Changelog\n\n## [1.12.2.0] - 2025-01-07\n\n### Fixed\n\n- Fix parsing of empty artist fields when adding manual map entries",
+                "targetAbi": "10.10.3.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.12.2.0/spotify-import_1.12.2.0.zip",
+                "checksum": "6bc1a07661550e222ceb7147e442d961",
+                "timestamp": "2025-01-07T18:09:41Z"
+            },
+            {
                 "version": "1.12.1.0",
                 "changelog": "# Changelog\n\n## [1.12.1.0] - 2024-12-08\n\n### Fixed\n\n- Fix missing handling of request timeouts when using the alternative Spotify provider",
                 "targetAbi": "10.10.3.0",
