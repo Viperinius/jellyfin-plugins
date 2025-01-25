@@ -59,6 +59,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.12.3.0",
+                "changelog": "# Changelog\n\n## [1.12.3.0] - 2025-01-25\n\n### Fixed\n\n- Fix manual track map path not being found depending on the plugin location\n- Fix exception handling if the manual track map does not exist yet",
+                "targetAbi": "10.10.3.0",
+                "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.12.3.0/spotify-import_1.12.3.0.zip",
+                "checksum": "20bc60a6209c2507a70ce32b35aab5fa",
+                "timestamp": "2025-01-25T17:19:33Z"
+            },
+            {
                 "version": "1.12.2.0",
                 "changelog": "# Changelog\n\n## [1.12.2.0] - 2025-01-07\n\n### Fixed\n\n- Fix parsing of empty artist fields when adding manual map entries",
                 "targetAbi": "10.10.3.0",
